@@ -1,0 +1,38 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: x-large;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contenedor{
+    background-image: url(Rick.jpg);
+    padding: 20px;
+}
+
+.contenedor .characters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor .characters .character{
+    margin: 40px;
+    border: 2px greenyellow solid;
+    color: greenyellow;
+}
+
+.contenedor .characters .character .img{
+    width: 280px;
+    height: 280px;
+}   
+
+.contenedor .characters .character .details{
+    padding: 5px;
+}
